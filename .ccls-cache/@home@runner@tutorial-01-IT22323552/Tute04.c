@@ -24,16 +24,10 @@ int main() {
   return 0;
 }
 
-int minimum(int a, int b) {
+int minimum(int a, int b) { 
+  if a<b?return b
+  }
 
-  return a > b ? b : a; // returning the minimum number by using the conditional
-                        // operator
-}
-
-int maximum(int c, int d) {
-
-  return c > d ? c : d; // returning the maxium number by using the conditional
-                        // operator
-}
+int maxium(int c, int d) { return c + d; }
 
 int multiply(int x, int y) { return x * y; }
