@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 int main() {
-
+//test
   int mark[2];
   float average;
 
